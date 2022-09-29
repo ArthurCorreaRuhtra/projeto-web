@@ -7,8 +7,8 @@
     @vite('resources/css/app.css')
     @yield('title')
 </head>
-<body>
-    <div class="w-4/5 h-4/5 bg-green-200">
+<body class="bg-green-200">
+    <div class="flex flex-col container border  mx-auto w-4/5 h-screen my-10 bg-green-50">
         @yield('conteiner')
     </div>
 </body>

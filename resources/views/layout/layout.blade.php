@@ -8,6 +8,8 @@
     @yield('title')
 </head>
 <body class="bg-green-200">
+    <div class="flex flex-col container border  mx-auto w-4/5 h-screen my-10 bg-green-50">
         @yield('conteiner')
+    </div>
 </body>
 </html>
